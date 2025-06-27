@@ -1,0 +1,15 @@
+numpy
+pandas
+rasterio
+geopandas
+matplotlib
+torch
+torchvision
+torchsummary
+tensorflow
+scikit-learn
+opencv-python
+cdsapi
+earthaccess
+osmnx
+tqdm
