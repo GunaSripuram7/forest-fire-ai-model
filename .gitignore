@@ -1,4 +1,38 @@
+# =============== PYTHON ===============
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# =============== ENVIRONMENTS ===============
 venv/
-*.tif
-*.nc
-*.zip
+.env/
+.envrc
+
+# =============== DATA ===============
+# Ignore all raw and processed data except placeholder .gitkeep if any
+data/raw/
+data/processed/
+!data/processed/.gitkeep
+
+# =============== MODELS ===============
+models/
+!models/.gitkeep
+
+# =============== OUTPUTS ===============
+outputs/
+!outputs/.gitkeep
+
+# =============== JUPYTER NOTEBOOKS CACHE ===============
+.ipynb_checkpoints/
+
+# =============== SYSTEM FILES ===============
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+
+# =============== IDE ===============
+.vscode/
+.idea/
+*.swp
